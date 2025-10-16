@@ -1,0 +1,149 @@
+/* header */
+body{
+    background-color: #1c1c1e;
+}
+header {
+    background-color: #1c1c1e;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header1{
+    width: 100%;
+    margin-right: 800px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 30px;
+}
+
+.logo img {
+    margin-left: 80px; 
+}
+
+.links{
+    display: flex;
+    gap: 30px;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 140%;
+    padding: 8px 12px;
+    border-radius: 6px;
+    
+    
+}
+
+.links a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #1c1c1e;
+    padding: 15px;
+}
+
+
+
+
+
+
+.footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;                                          /*Start footer */
+    color: white;
+    height: 235px;
+    margin-top: 75px;
+}   
+.footer-title {
+    font-size: 130%;
+    margin-bottom: 15px;
+}
+
+.footer-a{
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+
+}
+
+.footer-a a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 140%;
+}
+
+.footer-a a:hover {
+    color: white;                                            
+    text-decoration: underline;
+}   
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+}
+
+.footer-links a{
+    color: #ccc;
+    text-decoration: none;
+    font-size: 140%;
+}
+
+.footer-links a:hover{
+  color: white;                                                     /*End Footer */
+    text-decoration: underline;
+}
+
+
+/*  strat of main  */
+
+h2{
+    color: white;
+    font-size: 200%;
+    padding-left: 5%;
+}
+
+h3{
+    color: white;
+    font-size: 180%;
+    padding-left: 2%;
+}
+
+.posters{
+    width: 40%;
+    height: 4%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    gap: 10%;
+    padding-left: 1%;
+    border-radius: 5%;
+    margin-top: 2%;
+
+}
+
+.titles{
+    color:white;
+    font-size: 110%;
+    justify-content: space-around;
+    padding-right: 3%;
+    display: flex;
+    text-align: center;
+    padding-left: 2%;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration:  underline white;
+}
+
+
+/* End of Main */
