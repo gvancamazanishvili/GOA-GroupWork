@@ -89,7 +89,6 @@ print("8. ჰაკათონი - hackhathon")
 print("9. გადახდა - payment")
 print("10. სწავლის ტიპები - learning types")
 print("11. ასაკოვანი ზღვარი - Age limit")
-print(12. )
 
 
 
